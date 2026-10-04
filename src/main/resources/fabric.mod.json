@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "paytracker",
+  "version": "${version}",
+  "name": "Payment Tracker",
+  "description": "Logs incoming payments at or above a configurable amount.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.paytracker.PaymentTrackerMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
